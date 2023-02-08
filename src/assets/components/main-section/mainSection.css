@@ -1,0 +1,61 @@
+.home-container{
+    margin: 10px;
+}
+h1{
+    margin-left: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.block{
+    display:block;
+}
+.container input{
+    width: 374px;
+    height: 48px;
+    margin: 10px 0 10px 0;
+}
+.container label p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.left, .main, .right{
+    margin:20px
+}
+.btn{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.btn input{
+    width: 120px;
+    height: 48px;
+    margin: 20px;
+}
+.btn input{
+    background-color: #833AE0;
+    color: white;
+    border: 1px solid #833AE0;
+    cursor: pointer;
+}
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #E1E1E1;
+    color: black;
+    border: 1px solid #E1E1E1;
+    cursor: pointer;
+    width: 120px;
+    height: 48px;
+    margin: 20px;
+}
