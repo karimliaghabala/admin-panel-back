@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 
 const MainSection = () => {
     const [forumData, setForumData] = useState({
+        typeCoins:"",
         texth1:"",
         text:"",
         country:"",
@@ -62,6 +63,9 @@ const MainSection = () => {
                         </label>
                     </div>
                     <div className="right">
+                    <label className='block'> Price
+                            <input className='block' type="text" onChange={(e)=>{setForumData({...forumData, typeCoins:  e.target.value})}} />
+                        </label>
                         <label className='block'> Link to obverse image
                             <input className='block' type="text" onChange={(e)=>{setForumData({...forumData, link1:  e.target.value})}} />
                         </label>
